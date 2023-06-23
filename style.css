@@ -22,6 +22,15 @@ body {
 #carefor .imgbox {
   width: 500px;
 }
+@media screen and (max-width: 768px) {
+  #carefor .textbox h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  #carefor .textbox h4 {
+    margin-bottom: 25px;
+  }
+}
 
 #welcome {
   padding: 40px 0;
@@ -58,6 +67,14 @@ body {
 }
 #welcome .txtright {
   text-align: right;
+}
+@media screen and (max-width: 992px) {
+  #welcome .imgbox {
+    margin-top: 30px;
+  }
+  #welcome .textbox {
+    padding: 20px;
+  }
 }
 
 #aboutus {
@@ -97,6 +114,16 @@ body {
 }
 #aboutus .imgbox {
   width: 450px;
+}
+@media screen and (max-width: 992px) {
+  #aboutus .textbox {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #aboutus .imgbox {
+    margin-top: 20px;
+  }
 }
 
 #trainers {
@@ -141,6 +168,16 @@ body {
 }
 #trainers .wid {
   width: 580px;
+}
+@media screen and (max-width: 992px) {
+  #trainers .box .textbox {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #trainers .imgbox {
+    margin-top: 30px;
+  }
 }
 
 #pricing {
@@ -196,6 +233,12 @@ body {
 #pricing .PREMIUM-color .btn {
   background-color: #708f97;
 }
+@media screen and (max-width: 992px) {
+  #pricing .box {
+    padding: 18px;
+    margin-bottom: 18px;
+  }
+}
 
 #questions {
   padding: 40px 0;
@@ -245,6 +288,11 @@ body {
 #questions .textbox .bigicon i {
   font-size: 30px;
 }
+@media screen and (max-width: 992px) {
+  #questions .textbox {
+    padding: 0;
+  }
+}
 
 #dogger {
   padding: 40px 0;
@@ -280,6 +328,16 @@ body {
 #dogger .wid {
   width: 580px;
 }
+@media screen and (max-width: 992px) {
+  #dogger .box .imgbox {
+    width: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #dogger .box {
+    margin-bottom: 35px;
+  }
+}
 
 #services {
   padding: 40px 0;
@@ -292,7 +350,7 @@ body {
   font-size: 35px;
 }
 #services h3 {
-  font-size: 26px;
+  font-size: 22px;
   color: #c6c6c6;
   margin: 30px 0;
 }
@@ -305,8 +363,16 @@ body {
   margin: 20px 0 0;
 }
 #services .textbox h3 {
-  font-size: 30px 0 0;
+  margin: 30px 0 0;
 }
 #services .textbox .icon {
   font-size: 60px;
+}
+@media screen and (max-width: 992px) {
+  #services .textbox {
+    padding: 0;
+  }
+  #services .textbox h3 {
+    margin: 30px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
