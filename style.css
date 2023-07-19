@@ -5,13 +5,15 @@ body {
 
 .imgbox img {
   width: 100%;
+  border-radius: 20px;
 }
 
-#carefor {
+section {
   padding: 40px 0;
 }
+
 #carefor .textbox h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0 0 10px;
 }
@@ -32,19 +34,16 @@ body {
   }
 }
 
-#welcome {
-  padding: 40px 0;
+#welcome .wid {
+  padding: 70px;
 }
-#welcome .textbox {
-  padding: 80px;
-}
-#welcome .textbox h1 {
+#welcome .wid h1 {
   font-weight: 700;
   font-size: 30px;
 }
-#welcome .textbox h3 {
+#welcome .wid h3 {
   color: #868686;
-  margin: 20px 0 40px;
+  margin: 20px;
   font-size: 20px;
 }
 #welcome .textbox h2, #welcome .textbox h6 {
@@ -59,11 +58,19 @@ body {
 #welcome .textbox .btn {
   padding: 10px 30px;
   border-radius: 20px;
-  background-color: #a7b59f;
+  background-color: #b8d3b7;
   color: white;
 }
 #welcome .wid {
   width: 580px;
+  padding: 0;
+}
+#welcome .icon {
+  color: #b8d3b7;
+}
+#welcome .icon i {
+  font-size: 40px;
+  margin: 0 0 20px;
 }
 #welcome .txtright {
   text-align: right;
@@ -77,15 +84,12 @@ body {
   }
 }
 
-#aboutus {
-  padding: 40px 0;
-}
 #aboutus .textbox {
   padding: 0 100px;
 }
 #aboutus .textbox h1 {
   font-weight: 700;
-  font-size: 35px;
+  font-size: 45px;
 }
 #aboutus .textbox h3, #aboutus .textbox p {
   color: #a8a8a8;
@@ -115,6 +119,11 @@ body {
 #aboutus .imgbox {
   width: 450px;
 }
+#aboutus .bigicon i {
+  font-size: 40px;
+  color: #b8d3b7;
+  margin: 0 0 17px 20px;
+}
 @media screen and (max-width: 992px) {
   #aboutus .textbox {
     padding: 20px;
@@ -126,9 +135,6 @@ body {
   }
 }
 
-#trainers {
-  padding: 40px 0;
-}
 #trainers h1 {
   font-weight: 700;
   font-size: 38px;
@@ -169,6 +175,11 @@ body {
 #trainers .wid {
   width: 580px;
 }
+#trainers .wid i {
+  font-size: 40px;
+  color: #b8d3b7;
+  margin: 0 0 20px;
+}
 @media screen and (max-width: 992px) {
   #trainers .box .textbox {
     padding: 0;
@@ -180,9 +191,6 @@ body {
   }
 }
 
-#pricing {
-  padding: 40px 0;
-}
 #pricing .textbox {
   width: 580px;
   text-align: center;
@@ -194,8 +202,13 @@ body {
 #pricing .textbox h5 {
   font-weight: 200;
   font-size: 20px;
-  color: #000000;
+  color: #a8a8a8;
   margin: 20px 0 50px;
+}
+#pricing .textbox i {
+  font-size: 40px;
+  color: #b8d3b7;
+  margin: 0 0 20px;
 }
 #pricing .box {
   width: 340px;
@@ -203,6 +216,7 @@ body {
   background: #708f97;
   padding: 50px 30px;
   text-align: center;
+  border-radius: 20px;
 }
 #pricing .box h2 {
   font-size: 25px;
@@ -240,9 +254,6 @@ body {
   }
 }
 
-#questions {
-  padding: 40px 0;
-}
 #questions .wid {
   width: 580px;
 }
@@ -260,7 +271,7 @@ body {
   padding: 0 70px;
 }
 #questions .textbox h2, #questions .textbox h4 {
-  font-size: 25px;
+  font-size: 20px;
   margin: 0 0 0 10px;
   color: #717171;
 }
@@ -285,8 +296,9 @@ body {
 #questions .textbox .icon i {
   font-size: 22px;
 }
-#questions .textbox .bigicon i {
-  font-size: 30px;
+#questions .bigicon i {
+  font-size: 40px;
+  color: #b8d3b7;
 }
 @media screen and (max-width: 992px) {
   #questions .textbox {
@@ -299,9 +311,6 @@ body {
   }
 }
 
-#dogger {
-  padding: 40px 0;
-}
 #dogger .box {
   display: flex;
 }
@@ -333,6 +342,11 @@ body {
 #dogger .wid {
   width: 580px;
 }
+#dogger .wid i {
+  font-size: 40px;
+  color: #b8d3b7;
+  margin: 0 0 20px;
+}
 @media screen and (max-width: 992px) {
   #dogger .box .imgbox {
     width: 1000px;
@@ -344,11 +358,13 @@ body {
   }
 }
 
-#services {
-  padding: 40px 0;
-}
 #services .wid {
   width: 580px;
+}
+#services .wid .bigicon i {
+  font-size: 40px;
+  color: #b8d3b7;
+  margin: 0 0 20px;
 }
 #services h1 {
   font-weight: 700;
