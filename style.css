@@ -34,23 +34,23 @@ section {
   }
 }
 
-#welcome .wid {
+#welcome .textbox {
   padding: 70px;
 }
-#welcome .wid h1 {
+#welcome .textbox h1 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 36px;
 }
-#welcome .wid h3 {
-  color: #868686;
-  margin: 20px;
+#welcome .textbox h3 {
+  color: #888080;
+  margin: 20px 0 50px;
   font-size: 20px;
 }
 #welcome .textbox h2, #welcome .textbox h6 {
-  margin: 15px 0;
+  margin: 16px 0;
 }
 #welcome .textbox h2 {
-  font-size: 33px;
+  font-size: 35px;
 }
 #welcome .textbox h6 {
   font-size: 18px;
@@ -58,7 +58,7 @@ section {
 #welcome .textbox .btn {
   padding: 10px 30px;
   border-radius: 20px;
-  background-color: #b8d3b7;
+  background-color: #84af82;
   color: white;
 }
 #welcome .wid {
@@ -66,21 +66,18 @@ section {
   padding: 0;
 }
 #welcome .icon {
-  color: #b8d3b7;
+  color: #a3b1b6;
 }
 #welcome .icon i {
-  font-size: 40px;
-  margin: 0 0 20px;
-}
-#welcome .txtright {
-  text-align: right;
+  font-size: 30px;
+  margin: 0 0 25px;
 }
 @media screen and (max-width: 992px) {
-  #welcome .imgbox {
-    margin-top: 40px;
-  }
   #welcome .textbox {
     padding: 20px;
+  }
+  #welcome .imgbox {
+    margin-top: 40px;
   }
 }
 
